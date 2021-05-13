@@ -1,14 +1,17 @@
-#txtinput {
-width: 30%;
-height: 7rem;
-}
-body {
-    margin:0px;
-    padding:0px;
-}
-.container {
-    padding:0rem 1rem;
-}
 .container-center {
+    padding: 4rem 0rem;
+    width:50%;
     margin:auto;
+     
 }
+#btntranslate { 
+    color:white;    
+    background-color:#1D4ED8;    
+    padding:0.5rem 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ #txtinput {
+     height:8rem;
+     width:70%;
+     border:1px solid #2563EB;
+ }
