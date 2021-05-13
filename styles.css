@@ -1,0 +1,14 @@
+#txtinput {
+width: 30%;
+height: 7rem;
+}
+body {
+    margin:0px;
+    padding:0px;
+}
+.container {
+    padding:0rem 1rem;
+}
+.container-center {
+    margin:auto;
+}
