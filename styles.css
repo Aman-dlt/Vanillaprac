@@ -6,9 +6,16 @@ body,html {
     margin:0px;
     padding:0px;
 }
-
+.image {
+    padding:;
+    width:100px;
+    margin:auto;
+}
+img {
+    height:6rem;
+}
 header { 
-    height:4rem;
+    height:rem;
     border-bottom-left-radius: 1rem;
     background-color:var(--primary-color);
     padding: 1rem 0.5rem;
@@ -16,14 +23,13 @@ header {
     color:white;
 }
 .container {
-    height:55vh;
+    height:32rem ;
     padding: 2rem 0.5rem;
 }
 .container-center {
-    padding: 5.1rem 0.5rem;
+    padding: 2rem 0.5rem;
     width:50%;
-    margin:auto;
-     
+    margin:auto;     
 }
 #btn-translate { 
     color:white;    
@@ -43,11 +49,11 @@ header {
     padding: 0rem 0rem;
     }
  footer {
-    height:4rem;
+    display:block;
     border-top-right-radius: 2rem;
     background-color:var(--primary-color);
     padding: 1rem 0rem;
     text-align: center;
     color:white;
-    
+    min-height:10vh;
  }
