@@ -2,33 +2,31 @@
     --primary-color:#7138C7;
     --btn-color:#8EC738;
 }
-body,html {
-    margin:0px;
-    padding:0px;
+* {
+margin:0px;
+padding: 0px;
 }
-.image {
-    padding:;
-    width:100px;
-    margin:auto;
+body,html {
+   height:100%;
 }
 img {
-    height:6rem;
+    height:12rem;
+    padding: 0.5rem 2rem;
 }
 header { 
-    height:rem;
     border-bottom-left-radius: 1rem;
     background-color:var(--primary-color);
     padding: 1rem 0.5rem;
     text-align: center;
     color:white;
 }
-.container {
-    height:32rem ;
+.container { 
     padding: 2rem 0.5rem;
+    background-image: url(https://media.shakespeare.org.uk/images/The_Shakespeare_Birthplace_Tr.b283bad5.fill-1200x600-c75.jpg);
+    object-fit: cover;
 }
 .container-center {
-    padding: 2rem 0.5rem;
-    width:50%;
+    max-width:600px;
     margin:auto;     
 }
 #btn-translate { 
@@ -40,8 +38,8 @@ header {
     font-family:;
 }
 .textdes{
-     height:8rem;
-     width:70%;
+     height:9rem;
+     width:80%;
      border:1px solid #2563EB;
  }
  .footer-des { 
