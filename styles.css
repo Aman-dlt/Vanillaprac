@@ -9,10 +9,6 @@ padding: 0px;
 body,html {
    height:100%;
 }
-img {
-    height:12rem;
-    padding: 0.5rem 2rem;
-}
 header { 
     border-bottom-left-radius: 1rem;
     background-color:var(--primary-color);
@@ -21,8 +17,7 @@ header {
     color:white;
 }
 .container { 
-    padding: 2rem 0.5rem;
-    background-image: url(https://media.shakespeare.org.uk/images/The_Shakespeare_Birthplace_Tr.b283bad5.fill-1200x600-c75.jpg);
+    padding: 3rem 0.5rem;
     object-fit: cover;
 }
 .container-center {
@@ -30,12 +25,18 @@ header {
     margin:auto;     
 }
 #btn-translate { 
-    color:white;    
-    background-color:var(--btn-color);    
+    
+    color:var(--btn-color);
+    background-color: white;  
     padding:0.5rem 0.5rem;
     border-radius: 0.5rem;
     border:1px solid var(--btn-color);
-    font-family:;
+}
+#btn-translate:hover {
+    color:white;    
+    background-color:var(--btn-color); 
+    box-shadow:-7px 4px 1px rgba(220, 214, 230,0.45);
+
 }
 .textdes{
      height:9rem;
@@ -47,11 +48,13 @@ header {
     padding: 0rem 0rem;
     }
  footer {
-    display:block;
     border-top-right-radius: 2rem;
     background-color:var(--primary-color);
     padding: 1rem 0rem;
     text-align: center;
     color:white;
+    width:100%;
     min-height:10vh;
+    position: fixed;
+    bottom: 0px;
  }
